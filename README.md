@@ -63,7 +63,7 @@ network<span class="token operator">=</span><span class="token punctuation">{</s
 </ol>
 <pre class=" language-bash"><code class="prism  language-bash"><span class="token function">sudo</span> systemctl mask networking.service dhcpcd.service
 <span class="token function">sudo</span> <span class="token function">mv</span> /etc/network/interfaces /etc/network/interfaces~
-<span class="token function">sed</span> -i <span class="token string">'1i resolvconf=NO'</span> /etc/resolvconf.conf
+<span class="token function">sudo sed</span> -i <span class="token string">'1i resolvconf=NO'</span> /etc/resolvconf.conf
 </code></pre>
 <ol start="2">
 <li>Use the inbuilt <code>systemd-networkd</code></li>
