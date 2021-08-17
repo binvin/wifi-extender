@@ -35,7 +35,7 @@
 </ol>
 <pre class=" language-bash"><code class="prism  language-bash">ctrl_interface<span class="token operator">=</span>DIR<span class="token operator">=</span>/var/run/wpa_supplicant GROUP<span class="token operator">=</span>netdev
 update_config<span class="token operator">=</span>1
-country<span class="token operator">=</span>IN
+country<span class="token operator">=</span>US
 
 network<span class="token operator">=</span><span class="token punctuation">{</span>
      ssid<span class="token operator">=</span><span class="token string">"mywifissid"</span>
@@ -81,7 +81,7 @@ network<span class="token operator">=</span><span class="token punctuation">{</s
 <ol start="2">
 <li>Add the following content and save the file by pressing <kbd>Ctrl</kbd><kbd>X</kbd>, <kbd>Y</kbd>and <kbd>Enter</kbd></li>
 </ol>
-<pre class=" language-bash"><code class="prism  language-bash">country<span class="token operator">=</span>IN
+<pre class=" language-bash"><code class="prism  language-bash">country<span class="token operator">=</span>US
 ctrl_interface<span class="token operator">=</span>DIR<span class="token operator">=</span>/var/run/wpa_supplicant GROUP<span class="token operator">=</span>netdev
 update_config<span class="token operator">=</span>1
 
@@ -115,7 +115,7 @@ network<span class="token operator">=</span><span class="token punctuation">{</s
 <ol start="2">
 <li>Add the following content and save the file by pressing <kbd>Ctrl</kbd><kbd>X</kbd>, <kbd>Y</kbd>and <kbd>Enter</kbd></li>
 </ol>
-<pre class=" language-bash"><code class="prism  language-bash">country<span class="token operator">=</span>IN
+<pre class=" language-bash"><code class="prism  language-bash">country<span class="token operator">=</span>US
 ctrl_interface<span class="token operator">=</span>DIR<span class="token operator">=</span>/var/run/wpa_supplicant GROUP<span class="token operator">=</span>netdev
 update_config<span class="token operator">=</span>1
 
